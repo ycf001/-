@@ -5,20 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0b468c6c-faba-4ce0-b969-9c901216518b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/eastytuop/proxy/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/eastytuop/proxy/ProxyRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/eastytuop/proxy/RealRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/eastytuop/proxy/Request.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/eastytuop/proxy/dynamic/DynamicProxy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/eastytuop/proxy/dynamic/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/eastytuop/proxy/dynamic/ProxyHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/eastytuop/proxy/dynamic/RealRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/eastytuop/proxy/dynamic/Request.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/eastytuop/proxy/dynamic/RequestProxy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/eastytuop/proxy/force/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/eastytuop/proxy/force/ProxyRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/eastytuop/proxy/force/RealRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/eastytuop/proxy/force/Request.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/eastytuop/builder/Directory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/eastytuop/builder/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/eastytuop/builder/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/eastytuop/builder/ProductBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/eastytuop/builder/RealBuilderA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/eastytuop/builder/RealBuilderB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/eastytuop/prototype/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/eastytuop/prototype/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/eastytuop/template/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/eastytuop/template/Usb.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/eastytuop/template/Usb2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/eastytuop/template/Usb3.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -85,30 +83,18 @@
       <recent name="$PROJECT_DIR$/src/main/java/com/eastytuop/factory/method" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.eastytuop.builder" />
       <recent name="com.eastytuop.decorator" />
       <recent name="com.eastytuop.factory.method" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main (4)">
+  <component name="RunManager" selected="Application.Main (1)">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.eastytuop.decorator.Main" />
+      <option name="MAIN_CLASS_NAME" value="com.eastytuop.builder.Main" />
       <module name="code-design" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.eastytuop.decorator.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.eastytuop.proxy.Main" />
-      <module name="code-design" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.eastytuop.proxy.*" />
+          <option name="PATTERN" value="com.eastytuop.builder.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -142,12 +128,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.eastytuop.strategy.Main" />
+    <configuration name="Main (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.eastytuop.prototype.Main" />
       <module name="code-design" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.eastytuop.strategy.*" />
+          <option name="PATTERN" value="com.eastytuop.prototype.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.eastytuop.template.Main" />
+      <module name="code-design" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.eastytuop.template.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -266,11 +265,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main (4)" />
-        <item itemvalue="Application.Main (3)" />
-        <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Main (5)" />
+        <item itemvalue="Application.Main (4)" />
+        <item itemvalue="Application.Main (3)" />
       </list>
     </recent_temporary>
   </component>
@@ -291,7 +290,7 @@
       <workItem from="1651376589483" duration="598000" />
       <workItem from="1656325065533" duration="29293000" />
       <workItem from="1656553568591" duration="688000" />
-      <workItem from="1656558272733" duration="10815000" />
+      <workItem from="1656558272733" duration="19527000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1656516162660</created>
@@ -300,7 +299,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656516162660</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="代理模式">
+      <created>1656641698680</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1656641698680</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -308,6 +314,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init" />
-    <option name="LAST_COMMIT_MESSAGE" value="init" />
+    <MESSAGE value="代理模式" />
+    <option name="LAST_COMMIT_MESSAGE" value="代理模式" />
   </component>
 </project>
