@@ -5,14 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0b468c6c-faba-4ce0-b969-9c901216518b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/eastytuop/command/Command.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/eastytuop/command/CommandA.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/eastytuop/command/CommandB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/eastytuop/command/Invoker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/eastytuop/command/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/eastytuop/command/Receiver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/eastytuop/command/ReceiverA.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/eastytuop/command/ReceiverB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/eastytuop/chain/Boss.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/eastytuop/chain/DepartmentManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/eastytuop/chain/Director.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/eastytuop/chain/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/eastytuop/chain/Manager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/eastytuop/chain/Request.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -79,14 +77,14 @@
       <recent name="$PROJECT_DIR$/src/main/java/com/eastytuop/factory/method" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.eastytuop.chain" />
       <recent name="com.eastytuop.command" />
       <recent name="com.eastytuop.observer" />
       <recent name="com.eastytuop.builder" />
       <recent name="com.eastytuop.decorator" />
-      <recent name="com.eastytuop.factory.method" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main (1)">
+  <component name="RunManager" selected="Application.Main (2)">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.eastytuop.command.Main" />
       <module name="code-design" />
@@ -100,12 +98,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.eastytuop.observer.Main" />
+    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.eastytuop.chain.Main" />
       <module name="code-design" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.eastytuop.observer.*" />
+          <option name="PATTERN" value="com.eastytuop.chain.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -263,11 +261,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Main (5)" />
         <item itemvalue="Application.Main (4)" />
-        <item itemvalue="Application.Main (3)" />
       </list>
     </recent_temporary>
   </component>
@@ -289,7 +287,7 @@
       <workItem from="1656325065533" duration="29293000" />
       <workItem from="1656553568591" duration="688000" />
       <workItem from="1656558272733" duration="31413000" />
-      <workItem from="1657001805735" duration="2454000" />
+      <workItem from="1657001805735" duration="6287000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1656516162660</created>
@@ -319,7 +317,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657004705104</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="命令模式">
+      <created>1657006446616</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1657006446617</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -330,6 +335,7 @@
     <MESSAGE value="代理模式" />
     <MESSAGE value="模版方法模式、建造者模式" />
     <MESSAGE value="适配器模式、迭代器模式、观察者模式、状态模式、外观模式" />
-    <option name="LAST_COMMIT_MESSAGE" value="适配器模式、迭代器模式、观察者模式、状态模式、外观模式" />
+    <MESSAGE value="命令模式" />
+    <option name="LAST_COMMIT_MESSAGE" value="命令模式" />
   </component>
 </project>
