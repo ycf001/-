@@ -5,12 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0b468c6c-faba-4ce0-b969-9c901216518b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/eastytuop/chain/Boss.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/eastytuop/chain/DepartmentManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/eastytuop/chain/Director.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/eastytuop/chain/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/eastytuop/chain/Manager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/eastytuop/chain/Request.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/eastytuop/mediator/ConcreteMediator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/eastytuop/mediator/ConcreteObject1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/eastytuop/mediator/ConcreteObject2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/eastytuop/mediator/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/eastytuop/mediator/Mediator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/eastytuop/mediator/MediatorObject.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -77,14 +77,14 @@
       <recent name="$PROJECT_DIR$/src/main/java/com/eastytuop/factory/method" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.eastytuop.mediator" />
       <recent name="com.eastytuop.chain" />
       <recent name="com.eastytuop.command" />
       <recent name="com.eastytuop.observer" />
       <recent name="com.eastytuop.builder" />
-      <recent name="com.eastytuop.decorator" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main (2)">
+  <component name="RunManager" selected="Application.Main (3)">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.eastytuop.command.Main" />
       <module name="code-design" />
@@ -111,12 +111,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.eastytuop.adapter.Main" />
+    <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.eastytuop.mediator.Main" />
       <module name="code-design" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.eastytuop.adapter.*" />
+          <option name="PATTERN" value="com.eastytuop.mediator.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -261,11 +261,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (3)" />
         <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Main (5)" />
-        <item itemvalue="Application.Main (4)" />
       </list>
     </recent_temporary>
   </component>
@@ -287,7 +287,7 @@
       <workItem from="1656325065533" duration="29293000" />
       <workItem from="1656553568591" duration="688000" />
       <workItem from="1656558272733" duration="31413000" />
-      <workItem from="1657001805735" duration="6287000" />
+      <workItem from="1657001805735" duration="9137000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1656516162660</created>
@@ -324,7 +324,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657006446617</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="职责链模式">
+      <created>1657012352661</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1657012352662</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -336,6 +343,7 @@
     <MESSAGE value="模版方法模式、建造者模式" />
     <MESSAGE value="适配器模式、迭代器模式、观察者模式、状态模式、外观模式" />
     <MESSAGE value="命令模式" />
-    <option name="LAST_COMMIT_MESSAGE" value="命令模式" />
+    <MESSAGE value="职责链模式" />
+    <option name="LAST_COMMIT_MESSAGE" value="职责链模式" />
   </component>
 </project>
