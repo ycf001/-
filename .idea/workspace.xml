@@ -5,11 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0b468c6c-faba-4ce0-b969-9c901216518b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/eastytuop/flyweight/ConcreteFlyWeight.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/eastytuop/flyweight/FlyWeight.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/eastytuop/flyweight/FlyWeightFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/eastytuop/flyweight/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/eastytuop/flyweight/UnSharedConcreteFlyWeight.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/eastytuop/factory/abstractMethod/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/eastytuop/factory/abstractMethod/Cat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/eastytuop/factory/abstractMethod/TestReflect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/eastytuop/memento/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/eastytuop/memento/Memento.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/eastytuop/memento/TextEditor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -76,27 +77,14 @@
       <recent name="$PROJECT_DIR$/src/main/java/com/eastytuop/factory/method" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.eastytuop.memento" />
       <recent name="com.eastytuop.flyweight" />
       <recent name="com.eastytuop.mediator" />
       <recent name="com.eastytuop.chain" />
       <recent name="com.eastytuop.command" />
-      <recent name="com.eastytuop.observer" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main (4)">
-    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.eastytuop.command.Main" />
-      <module name="code-design" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.eastytuop.command.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.eastytuop.chain.Main" />
       <module name="code-design" />
@@ -137,11 +125,24 @@
       </method>
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.eastytuop.status.Main" />
+      <option name="MAIN_CLASS_NAME" value="com.eastytuop.memento.Main" />
       <module name="code-design" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.eastytuop.status.*" />
+          <option name="PATTERN" value="com.cloudwise.cmdb.core.factory.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestReflect" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.eastytuop.factory.abstractMethod.TestReflect" />
+      <module name="code-design" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.eastytuop.factory.abstractMethod.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -260,11 +261,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.TestReflect" />
         <item itemvalue="Application.Main (4)" />
         <item itemvalue="Application.Main (3)" />
         <item itemvalue="Application.Main (2)" />
-        <item itemvalue="Application.Main (1)" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -286,7 +287,8 @@
       <workItem from="1656325065533" duration="29293000" />
       <workItem from="1656553568591" duration="688000" />
       <workItem from="1656558272733" duration="31413000" />
-      <workItem from="1657001805735" duration="13005000" />
+      <workItem from="1657001805735" duration="18892000" />
+      <workItem from="1657339813823" duration="5829000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1656516162660</created>
@@ -337,7 +339,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657015370811</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="享元模式">
+      <created>1657073142080</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1657073142080</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -351,6 +360,23 @@
     <MESSAGE value="命令模式" />
     <MESSAGE value="职责链模式" />
     <MESSAGE value="中介者模式" />
-    <option name="LAST_COMMIT_MESSAGE" value="中介者模式" />
+    <MESSAGE value="享元模式" />
+    <option name="LAST_COMMIT_MESSAGE" value="享元模式" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/eastytuop/factory/abstractMethod/TestReflect.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/eastytuop/factory/abstractMethod/TestReflect.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
