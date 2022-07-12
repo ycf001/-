@@ -5,12 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0b468c6c-faba-4ce0-b969-9c901216518b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/eastytuop/factory/abstractMethod/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/eastytuop/factory/abstractMethod/Cat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/eastytuop/factory/abstractMethod/TestReflect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/eastytuop/memento/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/eastytuop/memento/Memento.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/eastytuop/memento/TextEditor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/eastytuop/bridge/ConcreteFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/eastytuop/bridge/Factory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/eastytuop/bridge/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/eastytuop/bridge/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/eastytuop/bridge/ProductA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/eastytuop/bridge/ProductB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/eastytuop/combination/Department.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/eastytuop/combination/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/eastytuop/combination/IDepartment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/eastytuop/combination/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -84,13 +88,13 @@
       <recent name="com.eastytuop.command" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.eastytuop.chain.Main" />
+  <component name="RunManager" selected="Application.Main (2)">
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.eastytuop.combination.Main" />
       <module name="code-design" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.eastytuop.chain.*" />
+          <option name="PATTERN" value="com.eastytuop.combination.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -98,12 +102,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.eastytuop.mediator.Main" />
+    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.eastytuop.bridge.Main" />
       <module name="code-design" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.eastytuop.mediator.*" />
+          <option name="PATTERN" value="com.eastytuop.bridge.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -261,11 +265,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (2)" />
+        <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.TestReflect" />
         <item itemvalue="Application.Main (4)" />
-        <item itemvalue="Application.Main (3)" />
-        <item itemvalue="Application.Main (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -288,7 +292,7 @@
       <workItem from="1656553568591" duration="688000" />
       <workItem from="1656558272733" duration="31413000" />
       <workItem from="1657001805735" duration="18892000" />
-      <workItem from="1657339813823" duration="5829000" />
+      <workItem from="1657339813823" duration="10819000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1656516162660</created>
@@ -346,7 +350,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657073142080</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="备忘录模式">
+      <created>1657527922658</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1657527922659</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -361,7 +372,8 @@
     <MESSAGE value="职责链模式" />
     <MESSAGE value="中介者模式" />
     <MESSAGE value="享元模式" />
-    <option name="LAST_COMMIT_MESSAGE" value="享元模式" />
+    <MESSAGE value="备忘录模式" />
+    <option name="LAST_COMMIT_MESSAGE" value="备忘录模式" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -375,6 +387,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/com/eastytuop/factory/abstractMethod/TestReflect.java</url>
           <line>17</line>
           <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/eastytuop/combination/Main.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
